@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10%;
     align-items: center;
     height: 100vh;
     max-height: 100vh;
@@ -45,7 +44,7 @@
   .Books-Container {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    padding-top: 10%;
     width: 50%;
     height: 100%;
   }
@@ -137,6 +136,13 @@
   
   .vanish {
     display: none;
+  }
+
+  .date {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    padding: 10px 20px;
   }
   
   @media only screen and (max-width: 1200px) {
