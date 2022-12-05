@@ -1,4 +1,4 @@
-
+import { store } from './localStorage.js';
 const Navigation = () => {
     const homePage = () => {
     const addNewBook = document.querySelector('.new-book');
